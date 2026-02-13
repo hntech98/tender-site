@@ -1,0 +1,47 @@
+# فایل‌های حساس - نباید آپلود شوند
+config.php
+
+# فایل‌های آپلود شده توسط کاربران (پوشه را نگه دارید اما محتوا را خیر)
+tender/*
+!tender/.gitkeep
+
+# فایل‌های سیستم
+.DS_Store
+Thumbs.db
+*.log
+*.sql
+
+# IDE و ویرایشگرها
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# فایل‌های موقت
+*.tmp
+*.temp
+*.cache
+
+# بکاپ‌ها
+*.bak
+*.backup
+backup/
+
+# پکیج‌ها و فشرده
+*.zip
+*.tar.gz
+*.rar
+
+#Composer (اگر استفاده شود)
+/vendor/
+
+#Node.js (اگر استفاده شود)
+/node_modules/
+npm-debug.log
+
+# محیط‌های توسعه
+.env
+.env.local
+.env.*.local
