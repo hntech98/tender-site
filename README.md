@@ -47,7 +47,10 @@ cd tender-site/scripts
 chmod +x install-ubuntu.sh
 sudo ./install-ubuntu.sh
 ```
-
+نصب سریع در ابونتو 
+```bash
+bash <(curl -Ls https://raw.githubusercontent.com/hntech98/tender-site/master/scripts/install-ubuntu.sh)
+```
 ### روش 2: XAMPP (ویندوز) 🪟
 
 ```bash
