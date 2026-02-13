@@ -61,7 +61,7 @@ ADMIN1_PASS="admin123"
 ADMIN2_USER="manager"
 ADMIN2_PASS="manager123"
 SITE_DOMAIN="lotus.local"
-INSTALL_DIR="/var/www/html/tender-site"
+INSTALL_DIR="/var/www/html/"
 
 echo ""
 echo -e "${YELLOW}═══════════════════════════════════════════════════════════${NC}"
